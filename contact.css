@@ -1,0 +1,43 @@
+body{
+    .navbar{z-index: 1000;
+        margin: 0px;
+        padding: 0px;
+        background:linear-gradient(-15deg, black,grey, white) ;}
+    .navdiv{
+        display: flex; justify-content: space-between;z-index: 1000;
+        text-align: center;.logo a{z-index: 10;
+            font-size: 19px; font-weight: 600;color: black;
+        }
+        li{z-index: 100;
+            list-style: none; display: inline-block;
+        }
+        li a{z-index: 100;
+            color: whitesmoke; font-size: 10px;
+        }
+       
+    } .cover{
+        margin: 10px;
+        padding: 10px; width: 1000px;
+        height: 500px;
+        margin-top: 0px;
+        display: flex;
+    }
+    .box{ 
+        margin: 0px;
+        width: 800px;
+        height: 500px;
+        box-shadow: -1px 0 10px #000;
+        align-items: center;
+        text-align: left;}
+        .contact{
+            margin: 5px;
+            padding: 10px;
+            align-items: center;
+        }
+        .img{
+            text-align: center;
+        }
+        .list{
+            margin-left: 200px;
+        }
+}

@@ -1,0 +1,65 @@
+body{
+    .navbar{z-index: 1000;
+        margin: 0px;
+        padding: 0px;
+        background:linear-gradient(-15deg, white,grey, white) ;
+    }
+    .navdiv{
+         display: flex; justify-content: space-between;z-index: 1000;
+            text-align: center;.logo a{z-index: 10;
+                font-size: 19px; font-weight: 600;color: black;
+            }
+            li{z-index: 100;
+                list-style: none; display: inline-block;
+            }
+            li a{z-index: 100;
+                color: black; font-size: 10px;
+            }
+    }
+    .logo a{z-index: 10;
+        font-size: 50px; font-weight: 600; color: black;
+    }
+    li{z-index: 100;
+        list-style: none; display: inline-block;
+    }
+    li a{z-index: 100;
+        color: black; font-size: 10px;
+    }
+    .wrapper{margin: 0px;
+        padding: 0px;
+       background-color: rgb(255,253,208);
+            
+        
+        h1{
+            color: rgb(255, 217, 0);
+             z-index: 100; 
+             font-size: 60px;
+             text-shadow: 20cap;
+             text-align: center;}
+         /*img{margin-left: 400px;width: 400px; justify-content: center;align-items: center;justify-items: center;height: 200px;} */}
+         .cover{
+            width: 1000px;
+            height: 500px;
+            margin-top: 0px;
+            display: flex; font-family: 'Poppins', sans-serif;
+            align-items: center;
+            justify-content: center;
+           
+         }
+         .box{ 
+            margin: 10px;
+            padding: 10px;
+            width: 800px;
+            height: 400px;
+            box-shadow: -1px 0 10px #000;
+            align-items: center;
+            text-align: left;
+        
+        h2{color: black; 
+            font-size: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+            font-weight: 200;
+            text-align: justify;
+            text-decoration: wavy;
+            z-index: 10000000px;} 
+}}

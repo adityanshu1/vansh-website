@@ -1,0 +1,79 @@
+body{
+    .navbar{z-index: 1000;
+        margin: 0px;
+        padding: 0px;
+        background:linear-gradient(-15deg, black,grey, black) ;
+       
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;}
+    .navdiv{
+        display: flex;
+         justify-content: space-between;
+         z-index: 1000;
+        text-align: center;
+        .logo a{
+            z-index: 10;
+            font-size: 19px; 
+            font-weight: 600;
+            color: chartreuse;
+        }
+        li{
+            z-index: 100;
+            list-style: none; 
+            display: inline-block;
+        }
+        li a{
+            z-index: 100;
+            color: white; 
+            font-size: 10px;
+        }
+       
+    }
+    .logo{ 
+        text-decoration: brown;
+        color: black;
+        text-align: center;
+        
+        h1{text-align: center;}
+    }
+    
+    background-color:   rgb(255,253,208);
+    .cover{
+        margin: 10px;
+        padding: 10px; width: 1000px;
+        height: 500px;
+        margin-top: 0px;
+        display: flex;
+    }
+    .box{ 
+        margin: 0px;
+        width: 800px;
+        height: 500px;
+        box-shadow: -1px 0 10px #000;
+        align-items: center;
+        text-align: left;}
+        .project1{
+            margin: 5px;
+            padding: 10px;
+            align-items: center;
+        }
+        .cover1{
+           margin: 10px;
+            padding: 10px; width: 1000px;
+            height: 1000px;
+            margin-top: 0px;
+            display: flex;
+        }
+        .box1{ 
+            margin: 0px;
+            width: 800px;
+            height: 500px;
+            box-shadow: -1px 0 10px #000;
+            align-items: center;
+            text-align: left;}
+            .project2{
+                margin: 5px;
+                padding: 10px;
+                align-items: center;
+            }
+
+        }
